@@ -11,7 +11,7 @@ logging.basicConfig(
 from typing import Dict
 def frequency_count(s:str)->Dict[str:int]:
     """
-    Count the number of vowels in a given string.
+    Count the frequency of characters in a given string.
     Parameters:
         s (str): Input string
     Returns:

@@ -15,10 +15,10 @@ def list_isSorted(nums: List[int]) -> bool:
         nums (list): Input list of integers
         
     Returns:
-        bool: returns true if list is sorted.
+        bool: returns true if list is sorted in ascending order.
     """
 
-    isSorted = False
+    
     if len(nums) == 0:
         logging.error("List must not be empty")
 
