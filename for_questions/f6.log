@@ -1,0 +1,4 @@
+2026-02-20 21:47:04,701 - INFO - Removing duplicates while preserving order
+2026-02-20 21:47:04,701 - INFO - List after removing duplicates: [1, 2, 3, 4, 5]
+2026-02-20 21:48:05,237 - INFO - Removing duplicates while preserving order
+2026-02-20 21:48:05,238 - INFO - List after removing duplicates: [1, 2, 3, 4, 5]

@@ -8,8 +8,7 @@ logging.basicConfig(
 
 
 
-from typing import Dict
-def frequency_count(s:str)->Dict[str:int]:
+def frequency_count(s:str)->dict :
     """
     Count the frequency of characters in a given string.
     Parameters:

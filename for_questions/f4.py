@@ -18,9 +18,10 @@ def list_isSorted(nums: List[int]) -> bool:
         bool: returns true if list is sorted in ascending order.
     """
 
+    logging.info("Checking if list is sorted")
     
     if len(nums) == 0:
-        logging.error("List must not be empty")
+        return True
 
     for i in range(1,len(nums)):
         if nums[i] < nums[i-1]:

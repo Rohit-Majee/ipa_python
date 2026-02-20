@@ -8,7 +8,7 @@ logging.basicConfig(
 
 
 
-def count_vowel(s:str) -> str:
+def count_vowel(s:str) -> int:
     """
     Count the number of vowels in a given string.
     Parameters:
