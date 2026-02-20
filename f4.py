@@ -9,7 +9,7 @@ logging.basicConfig(
 from typing import List
 def list_isSorted(nums: List[int]) -> bool:
     """
-    Find the second largest element in a given list.
+    Find the list is sorted in ascending order or not.
     
     Parameters:
         nums (list): Input list of integers
