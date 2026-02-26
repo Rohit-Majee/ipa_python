@@ -1,0 +1,7 @@
+2026-02-20 15:11:21,164 - INFO - vowel count: 2
+2026-02-20 15:14:54,898 - INFO - vowel count for aman : 2
+2026-02-20 15:15:42,130 - INFO - vowel count for abcd : 1
+2026-02-20 15:32:18,685 - INFO - Counting vowels in the string
+2026-02-20 15:32:18,685 - INFO - vowel count for abcde : 2
+2026-02-20 15:41:29,406 - INFO - Finding second largest element in the list
+2026-02-20 15:41:29,407 - INFO - Second largest element in [10, 20, 4, 45, 99] : 45

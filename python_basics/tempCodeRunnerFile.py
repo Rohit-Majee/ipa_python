@@ -1,0 +1,11 @@
+print("----- Savings Account -----")
+savings = SavingsAccount("Alice", "1995-06-15", "SA12345", 2000, 500)
+savings.deposit(500)
+savings.withdraw(1800)
+savings.display_account_details()
+
+print("\n----- Current Account -----")
+current = CurrentAccount("Bob", "1990-03-10", "CA67890", 1000, 2000)
+current.withdraw(2500)
+current.deposit(1000)
+current.display_account_details()
