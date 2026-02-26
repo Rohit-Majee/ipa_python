@@ -1,148 +1,148 @@
-# class Result10:
-#     def __init__(self,name,phone, email, pass_year10):
-#         self.name = name
-#         self.phone = phone
-#         self.email = email
-#         self.pass_year10 = pass_year10
+class Result10:
+    def __init__(self,name,phone, email, pass_year10):
+        self.name = name
+        self.phone = phone
+        self.email = email
+        self.pass_year10 = pass_year10
 
 
-#     def display(self):
-#           print(f"{self.name} {self.phone} {self.email} {self.pass_year10}")
+    def display(self):
+          print(f"{self.name} {self.phone} {self.email} {self.pass_year10}")
 
-# class Result12(Result10):
-#     def __init__(self,name,phone, email, pass_year10,pass_year12, percentage12):
-#               super().__init__(name,phone, email, pass_year10)
-#               self.pass_year12 = pass_year12
-#               self.percentage12 = percentage12
+class Result12(Result10):
+    def __init__(self,name,phone, email, pass_year10,pass_year12, percentage12):
+              super().__init__(name,phone, email, pass_year10)
+              self.pass_year12 = pass_year12
+              self.percentage12 = percentage12
 
-#     def display(self):
-#         super().display()
-#         print(f"{self.pass_year12}, {self.percentage12}")
+    def display(self):
+        super().display()
+        print(f"{self.pass_year12}, {self.percentage12}")
 
-# class ResultBE(Result12):
-#     def __init__(self,name,phone, email, pass_year10,pass_year12, percentage12,branch , university, bepercentage):
-#         super().__init__(name,phone, email, pass_year10,pass_year12, percentage12)
-#         self.branch = branch
-#         self.university = university
-#         self.bepercentage = bepercentage
+class ResultBE(Result12):
+    def __init__(self,name,phone, email, pass_year10,pass_year12, percentage12,branch , university, bepercentage):
+        super().__init__(name,phone, email, pass_year10,pass_year12, percentage12)
+        self.branch = branch
+        self.university = university
+        self.bepercentage = bepercentage
 
-#     def display(self):
-#         super().display()
-#         print(f"{self.branch}, {self.university}, {self.bepercentage}")
-
-
-
-# s1 = Result10("aman",2324234234,"aman@gmail.com", 2019)
-# s2 = Result12("mohit", 98657863,"mohit@gmail.com", 2019, 2021, 89)
-
-# b3 = ResultBE("Rohit", 98657863,"rohit@gmail.com", 2019, 2021, 79, "abc", "xyz", 89)
+    def display(self):
+        super().display()
+        print(f"{self.branch}, {self.university}, {self.bepercentage}")
 
 
-# s1.display()
-# s2.display()
-# b3.display()
+
+s1 = Result10("aman",2324234234,"aman@gmail.com", 2019)
+s2 = Result12("mohit", 98657863,"mohit@gmail.com", 2019, 2021, 89)
+
+b3 = ResultBE("Rohit", 98657863,"rohit@gmail.com", 2019, 2021, 79, "abc", "xyz", 89)
 
 
-# class A:
-#     a = 10
-#     b = 20
-
-#     def __init__(self,c,d):
-#         self.c = c
-#         self.d = d
+s1.display()
+s2.display()
+b3.display()
 
 
-# class B(A):
-#     a = 1000
-#     @classmethod
-#     def display(cls):
-#         print(f"{cls.a}")
+class A:
+    a = 10
+    b = 20
 
-# class C(A):
-#     a = 2000
-
-# obj1 = B(30,40)
-# obj2 = C(50,60)
-# print(obj1.a)
-# print(obj1.b)
-# print(obj1.c)
-# print(obj1.d)
-# print(obj2.a)
-# print(obj2.b)
-# print(obj2.c)
-# print(obj2.d)
+    def __init__(self,c,d):
+        self.c = c
+        self.d = d
 
 
-#q1
+class B(A):
+    a = 1000
+    @classmethod
+    def display(cls):
+        print(f"{cls.a}")
 
-# class Person:
-#     def __init__(self, name, age):
-#         self.name = name
-#         self.age = age
+class C(A):
+    a = 2000
 
-#     def display_person_info(self):
-#         print(f"Name: {self.name}")
-#         print(f"Age: {self.age}")
+obj1 = B(30,40)
+obj2 = C(50,60)
+print(obj1.a)
+print(obj1.b)
+print(obj1.c)
+print(obj1.d)
+print(obj2.a)
+print(obj2.b)
+print(obj2.c)
+print(obj2.d)
 
-# class Student(Person):
-#     def __init__(self, name, age, student_id):
-#         super().__init__(name, age)
-#         self.student_id = student_id
 
-#     def display_student_info(self):
-#         self.display_person_info()
-#         print(f"Student ID: {self.student_id}")
+q1
 
-# class Teacher(Person):
-#     def __init__(self, name, age, employee_id, subject):
-#         super().__init__(name, age)
-#         self.employee_id = employee_id
-#         self.subject_expert = subject
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-#     def display_teacher_info(self):
-#         self.display_person_info()
-#         print(f"Teacher ID: {self.employee_id}")
-#         print(f"Subject: {self.subject}")
+    def display_person_info(self):
+        print(f"Name: {self.name}")
+        print(f"Age: {self.age}")
 
-# class Academic:
-#     def __init__(self, subject, marks):
-#         self.subject = subject
-#         self.marks = marks
+class Student(Person):
+    def __init__(self, name, age, student_id):
+        super().__init__(name, age)
+        self.student_id = student_id
 
-#     def display_academic_info(self):
-#         print(f"Academic Subject: {self.subject}")
-#         print(f"Marks: {self.marks}")
+    def display_student_info(self):
+        self.display_person_info()
+        print(f"Student ID: {self.student_id}")
 
-# class Sports:
-#     def __init__(self, sport_name, level):
-#         self.sport_name = sport_name
-#         self.level = level
+class Teacher(Person):
+    def __init__(self, name, age, employee_id, subject):
+        super().__init__(name, age)
+        self.employee_id = employee_id
+        self.subject_expert = subject
 
-#     def display_sports_info(self):
-#         print(f"Sport: {self.sport_name}")
-#         print(f"Level: {self.level}")
+    def display_teacher_info(self):
+        self.display_person_info()
+        print(f"Teacher ID: {self.employee_id}")
+        print(f"Subject: {self.subject}")
+
+class Academic:
+    def __init__(self, subject, marks):
+        self.subject = subject
+        self.marks = marks
+
+    def display_academic_info(self):
+        print(f"Academic Subject: {self.subject}")
+        print(f"Marks: {self.marks}")
+
+class Sports:
+    def __init__(self, sport_name, level):
+        self.sport_name = sport_name
+        self.level = level
+
+    def display_sports_info(self):
+        print(f"Sport: {self.sport_name}")
+        print(f"Level: {self.level}")
 
 
         
 
-# class AllRounderStudent(Student, Academic, Sports):
+class AllRounderStudent(Student, Academic, Sports):
   
-#     def __init__(self, name, age, student_id, subject, marks, sport_name, level):
-#         Student.__init__(self, name, age, student_id)
-#         Academic.__init__(self, subject, marks)
-#         Sports.__init__(self, sport_name, level)
+    def __init__(self, name, age, student_id, subject, marks, sport_name, level):
+        Student.__init__(self, name, age, student_id)
+        Academic.__init__(self, subject, marks)
+        Sports.__init__(self, sport_name, level)
 
-#     def display_all_info(self):
+    def display_all_info(self):
         
-#         self.display_student_info()
-#         self.display_academic_info()
-#         self.display_sports_info()
+        self.display_student_info()
+        self.display_academic_info()
+        self.display_sports_info()
       
 
 
-# ars = AllRounderStudent("Aman", 20, 136, "Mathematics", 95, "Cricket", "State")
+ars = AllRounderStudent("Aman", 20, 136, "Mathematics", 95, "Cricket", "State")
 
-# ars.display_all_info()
+ars.display_all_info()
 
 class Person:
     def __init__(self, name, age):
