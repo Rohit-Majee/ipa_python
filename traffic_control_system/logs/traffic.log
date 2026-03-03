@@ -1,0 +1,12 @@
+2026-02-27 15:38:44,895 - INFO - Line:7 - Traffic Stimulation Started...
+2026-02-27 15:38:46,397 - INFO - Line:9 - Traffic signal created with vehicle count = 14
+2026-02-27 15:38:46,397 - INFO - Line:9 - Traffic signal created with vehicle count = 14
+2026-02-27 15:38:46,397 - INFO - Line:6 - Signal Controller started for Highway Signal
+2026-02-27 15:38:46,397 - INFO - Line:14 - Calculate green time for highway signal
+2026-02-27 15:38:46,410 - INFO - Line:8 - Signal Type: Highway Signal, Green Time: 45 seconds
+2026-02-27 15:38:46,410 - INFO - Line:9 - Signal controller operation completed
+2026-02-27 15:38:46,410 - INFO - Line:6 - Signal Controller started for City Signal
+2026-02-27 15:38:46,410 - INFO - Line:14 - Calculate green time for highway signal
+2026-02-27 15:38:46,410 - INFO - Line:8 - Signal Type: City Signal, Green Time: 30 seconds
+2026-02-27 15:38:46,410 - INFO - Line:9 - Signal controller operation completed
+2026-02-27 15:38:46,411 - INFO - Line:17 - Traffic Stimulation completed

@@ -1,0 +1,14 @@
+#Logging config
+LOG_DIR = 'logs'
+LOG_FILE = 'traffic.log'
+
+#city signal config
+CITY_SIGNAL_TRAFFIC_LIMIT = 20
+CITY_LOW_GREEN_LIMIT = 30
+CITY_HIGH_GREEN_LIMIT = 60
+
+#highway signal config
+HIGHWAY_SIGNAL_TRAFFIC_LIMIT = 30
+HIGHWAY_LOW_GREEN_LIMIT = 45
+HIGHWAY_HIGH_GREEN_LIMIT = 90
+
